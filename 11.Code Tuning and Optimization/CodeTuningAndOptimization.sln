@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ComparePreformanceOfAritmeticOperations", "2.ComparePreformanceOfAritmeticOperations\2.ComparePreformanceOfAritmeticOperations.csproj", "{5BAC4852-D8D7-4E9F-9FDE-4318B3DFE905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ComparePerformanceOfMathFunctions", "3.ComparePerformanceOfMathFunctions\3.ComparePerformanceOfMathFunctions.csproj", "{C4F3BFF1-2CEE-4C2E-8993-35453D1CA7E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BAC4852-D8D7-4E9F-9FDE-4318B3DFE905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BAC4852-D8D7-4E9F-9FDE-4318B3DFE905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BAC4852-D8D7-4E9F-9FDE-4318B3DFE905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BAC4852-D8D7-4E9F-9FDE-4318B3DFE905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F3BFF1-2CEE-4C2E-8993-35453D1CA7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F3BFF1-2CEE-4C2E-8993-35453D1CA7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F3BFF1-2CEE-4C2E-8993-35453D1CA7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F3BFF1-2CEE-4C2E-8993-35453D1CA7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

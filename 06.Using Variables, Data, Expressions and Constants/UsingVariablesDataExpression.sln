@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Figure", "1.Figure\1.Figure.csproj", "{CA687A58-85E2-49FD-9EED-D471F8BAA273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Statistic", "2.Statistic\2.Statistic.csproj", "{697DE835-391C-484E-BAA1-7B51E58536F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA687A58-85E2-49FD-9EED-D471F8BAA273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA687A58-85E2-49FD-9EED-D471F8BAA273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA687A58-85E2-49FD-9EED-D471F8BAA273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA687A58-85E2-49FD-9EED-D471F8BAA273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697DE835-391C-484E-BAA1-7B51E58536F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697DE835-391C-484E-BAA1-7B51E58536F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697DE835-391C-484E-BAA1-7B51E58536F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697DE835-391C-484E-BAA1-7B51E58536F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

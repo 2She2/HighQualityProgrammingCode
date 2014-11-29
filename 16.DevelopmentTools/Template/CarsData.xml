@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cars vehicle="cars" type="string">
+  <car model="Audi" />
+  <car model="BMW" />
+  <car model="Citroen" />
+  <car model="Fiat" />
+  <car model="Honda" />
+  <car model="Mercedes" />
+  <car model="Nissan" />
+  <car model="Opel" />
+  <car model="Toyota" />
+</cars>
+
+<!--Very helpful article-->
+<!-- http://msdn.microsoft.com/en-us/library/dd820614.aspx -->

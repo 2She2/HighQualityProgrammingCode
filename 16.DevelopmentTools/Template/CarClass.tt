@@ -1,0 +1,37 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Xml" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Xml" #>
+<#@ output extension=".cs" #>
+
+
+
+namespace CarClass 
+{
+	using System;
+	using System.Collections.Generic;
+<# 
+	// load the sample XML document which will be used as a data source
+	var xmlDoc = new XmlDocument();
+	xmlDoc.Load(this.Host.ResolvePath("CarsData.xml"));
+#>
+	public class CarsClass
+	{
+		static void Main()
+        {
+			List<string> cars = new List<string>();
+<#  
+			foreach (XmlElement car in xmlDoc.SelectNodes("//car")) 
+			{
+#>		 
+				cars.Add("<#= car.Attributes["model"].Value #>");
+<#
+			} 
+#>
+		}
+	}
+}
